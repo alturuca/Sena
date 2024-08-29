@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #1D5D9B;
+    color: #FBEEAC ;
+}
+
+.header{
+    padding: 3% 0% 0% 7%;
+
+}
+
+.header__encabezado{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+
+}
+
+.header__encabezado__cerrar{
+    background-color: #75C2F6;
+    border: none; 
+    color: #0f3255; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    display: inline-flex;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.primary {background-color: #75C2F6;} 
+.primary:hover {background: #02213b;}
+
+.header__menu{
+    padding: 3% 0% 0% 0%;
+    display: flex;
+    gap: 170px;
+
+}
+
+.header__menu__link{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    
+    
+
+}
+
+.venta__mostrar{
+    padding: 1% 0% 0% 55%;
+    display: grid;
+    grid-template-columns: 25% 40%;
+    grid-row: 25%;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    gap: 30px;
+    text-align: center;
+
+}
+
+.venta__mostrar__etiqueta{
+    background-color: #f2f8f8;
+
+}
+
+.venta__titulo{
+    padding: 1% 10% 0% 7%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap:5px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.venta__titulo__caja{
+    
+    
+    background-color: #0f466b;
+
+}
+
+.venta__contenido{
+    padding: 0% 10% 0% 7%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap:5px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.venta__contenido__caja{
+    
+   background-color: #f4f4f4;
+   color: #f4f4f4;
+}
+
+.venta__datos{
+    padding: 2% 10% 0% 7%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    gap:5px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+
+}
+.venta__datos__caja{
+
+    background-color: #f4f4f4;
+    color: #f4f4f4;
+}
+
+
+.footer{
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}

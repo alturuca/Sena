@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url(/assets/pexels-fmaderebner-623919.jpg);
+    background-size:cover;
+    color: #F4D160 ;
+}
+
+.acceso{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(29, 93, 155, 0.3);
+        
+}
+
+.acceso__intro{
+    padding: 60% 0% 0% 15%;
+}
+
+.acceso__intro__btn{
+    background-color: #1D5D9B ;
+    border: none; 
+    color: #F4D160; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    display: inline-flex;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.primary {background-color: #1D5D9B;} 
+.primary:hover {background: #054579;}

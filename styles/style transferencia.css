@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #1D5D9B;
+    color: #FBEEAC ;
+}
+
+.header{
+    padding: 3% 0% 0% 7%;
+
+}
+
+.header__encabezado{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+
+}
+
+.header__encabezado__cerrar{
+    background-color: #75C2F6;
+    border: none; 
+    color: #0f3255; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    display: inline-flex;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.primary {background-color: #75C2F6;} 
+.primary:hover {background: #02213b;}
+
+.header__menu{
+    padding: 3% 0% 0% 0%;
+    display: flex;
+    gap: 170px;
+
+}
+
+.header__menu__link{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    
+    
+
+}
+
+.centro{
+    padding: 2% 0% 0% 7%;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+    
+    
+}
+
+.centro__busqueda{
+    padding: 0% 12% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.centro__busqueda__entrada{
+    width: 520px;
+    height: 35px;
+    border-radius: 10px; 
+    text-align: end;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-image: url(../assets/icons8-buscar-48.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    
+
+}
+
+.centro__busqueda__entrada:focus{
+    outline: none;
+}
+
+
+.centro__informacion{
+    padding: 6% 0% 6.5% 22%;
+    display: grid;
+    grid-template-columns: 25% 25%;
+    gap: 15px;
+    text-align: center;
+
+
+}
+
+.centro__informacion__etiqueta{
+    
+    background-color: #f2f8f8;
+}
+
+
+
+.footer{
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
